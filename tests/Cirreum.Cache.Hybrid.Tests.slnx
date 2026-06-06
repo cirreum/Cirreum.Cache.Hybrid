@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <File Path="../src/Directory.Build.props" />
+    <Project Path="../src/Cirreum.Cache.Hybrid/Cirreum.Cache.Hybrid.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <File Path="Directory.Build.props" />
+    <Project Path="Cirreum.Cache.Hybrid.Tests/Cirreum.Cache.Hybrid.Tests.csproj" />
+  </Folder>
+</Solution>
