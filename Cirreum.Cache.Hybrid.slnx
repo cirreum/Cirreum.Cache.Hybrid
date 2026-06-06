@@ -1,0 +1,34 @@
+<Solution>
+  <Folder Name="/build/">
+    <File Path="build/Author.props" />
+    <File Path="build/Common.props" />
+    <File Path="build/icon.png" />
+    <File Path="build/Icon.props" />
+    <File Path="build/PackageInfo.props" />
+    <File Path="build/SourceLink.props" />
+    <File Path="build/Versioning.props" />
+  </Folder>
+  <Folder Name="/docs/">
+    <File Path="docs/CHANGELOG.md" />
+  </Folder>
+  <Folder Name="/publish/">
+    <File Path=".github/workflows/publish.yml" />
+  </Folder>
+  <Folder Name="/src/">
+    <File Path="src/Directory.Build.props" />
+    <Project Path="src/Cirreum.Cache.Hybrid/Cirreum.Cache.Hybrid.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <File Path="tests/Directory.Build.props" />
+    <Project Path="tests/Cirreum.Cache.Hybrid.Tests/Cirreum.Cache.Hybrid.Tests.csproj" />
+  </Folder>
+  <Folder Name="/_solution items/">
+    <File Path=".editorconfig" />
+    <File Path=".gitattributes" />
+    <File Path=".gitignore" />
+    <File Path="CLAUDE.md" />
+    <File Path="global.json" />
+    <File Path="LICENSE" />
+    <File Path="README.md" />
+  </Folder>
+</Solution>

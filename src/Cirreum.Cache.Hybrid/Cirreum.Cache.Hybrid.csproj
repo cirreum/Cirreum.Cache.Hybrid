@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<Description>The Cirreum Hybrid caching implementation for Conductor Cacheable Queries.</Description>
+		<PackageTags>cirreum;conductor;cache;cqrs</PackageTags>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<!-- Code-first cache provider: references Cirreum.Domain for AddCacheService + the cache
+		     abstractions (ICacheService / CacheExpirationPolicy). Contracts/Kernel flow transitively via Domain. -->
+		<PackageReference Include="Cirreum.Domain" Version="1.1.1" />
+		<!-- Microsoft.Extensions.Caching.Hybrid supplies both the HybridCache abstraction and the
+		     AddHybridCache() registration that AddHybridCacheService() auto-ensures. It carries
+		     Microsoft.Extensions.Caching.Abstractions transitively. -->
+		<PackageReference Include="Microsoft.Extensions.Caching.Hybrid" Version="10.6.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Using Include="Cirreum.Caching" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<InternalsVisibleTo Include="Cirreum.Cache.Hybrid.Tests" />
+	</ItemGroup>
+
+</Project>
