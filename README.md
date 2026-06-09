@@ -3,7 +3,7 @@
 [![NuGet Version](https://img.shields.io/nuget/v/Cirreum.Cache.Hybrid.svg?style=flat-square&labelColor=1F1F1F&color=003D8F)](https://www.nuget.org/packages/Cirreum.Cache.Hybrid/)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/Cirreum.Cache.Hybrid.svg?style=flat-square&labelColor=1F1F1F&color=003D8F)](https://www.nuget.org/packages/Cirreum.Cache.Hybrid/)
 [![GitHub Release](https://img.shields.io/github/v/release/cirreum/Cirreum.Cache.Hybrid?style=flat-square&labelColor=1F1F1F&color=FF3B2E)](https://github.com/cirreum/Cirreum.Cache.Hybrid/releases)
-[![License](https://img.shields.io/github/license/cirreum/Cirreum.Cache.Hybrid?style=flat-square&labelColor=1F1F1F&color=F2F2F2)](https://github.com/cirreum/Cirreum.Cache.Hybrid/blob/main/LICENSE)
+[![License](https://img.shields.io/badge/license-MIT-F2F2F2?style=flat-square&labelColor=1F1F1F)](https://github.com/cirreum/Cirreum.Cache.Hybrid/blob/main/LICENSE)
 [![.NET](https://img.shields.io/badge/.NET-10.0-003D8F?style=flat-square&labelColor=1F1F1F)](https://dotnet.microsoft.com/)
 
 **Hybrid caching implementation for Cirreum's cache service**
