@@ -12,6 +12,8 @@ guides linked at the bottom of each entry.
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-07-03
+
 ### Added
 
 - Initial release of **Cirreum.Cache.Hybrid**, the `HybridCache`-backed implementation of
