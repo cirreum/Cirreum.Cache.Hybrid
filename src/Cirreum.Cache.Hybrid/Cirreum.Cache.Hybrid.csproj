@@ -8,11 +8,11 @@
 	<ItemGroup>
 		<!-- Code-first cache provider: references Cirreum.Domain for AddCacheService + the cache
 		     abstractions (ICacheService / CacheExpirationPolicy). Contracts/Kernel flow transitively via Domain. -->
-		<PackageReference Include="Cirreum.Domain" Version="1.2.5" />
+		<PackageReference Include="Cirreum.Domain" Version="1.2.6" />
 		<!-- Microsoft.Extensions.Caching.Hybrid supplies both the HybridCache abstraction and the
 		     AddHybridCache() registration that AddHybridCacheService() auto-ensures. It carries
 		     Microsoft.Extensions.Caching.Abstractions transitively. -->
-		<PackageReference Include="Microsoft.Extensions.Caching.Hybrid" Version="10.7.0" />
+		<PackageReference Include="Microsoft.Extensions.Caching.Hybrid" Version="10.8.0" />
 	</ItemGroup>
 
 	<ItemGroup>
