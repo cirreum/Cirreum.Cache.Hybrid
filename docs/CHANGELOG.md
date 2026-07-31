@@ -12,7 +12,9 @@ guides linked at the bottom of each entry.
 
 ## [Unreleased]
 
-Updated NuGet packages (Cirreum spine 4.0.1 wave: Contracts 4.0.1 / Domain 4.0.1 / Kernel 2.0.1 / AuthenticationProvider 2.0.3).
+### Updated
+
+- Updated NuGet packages (Cirreum spine 4.0.1 wave: `Cirreum.Contracts` 4.0.1 / `Cirreum.Domain` 4.0.1 / `Cirreum.Kernel` 2.0.1 / `Cirreum.AuthenticationProvider` 2.0.3).
 
 ## [1.0.10] - 2026-07-30
 
