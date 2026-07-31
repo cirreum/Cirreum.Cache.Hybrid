@@ -12,6 +12,8 @@ guides linked at the bottom of each entry.
 
 ## [Unreleased]
 
+## [1.0.10] - 2026-07-30
+
 ### Updated
 
 - Re-pinned `Cirreum.Domain` `2.0.0` → `3.0.0` — restores operation-authorization enforcement
